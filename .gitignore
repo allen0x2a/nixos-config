@@ -1,0 +1,28 @@
+# Nix build results
+result
+result-*
+
+# Secrets / keys
+secrets/
+*.key
+*.pem
+
+# Backup / temp files
+*.tmp
+*.bak
+*~
+.*.swp
+*.swp
+*.swo
+
+# IDE
+.vscode/
+.idea/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System
+.DS_Store
+Thumbs.db
