@@ -8,13 +8,16 @@
       ./system/bluetooth.nix
       ./system/diagnostics.nix
       ./system/desktop.nix
+      ./system/docker.nix
       ./system/networking.nix
       ./system/nvidia.nix
       ./system/printing.nix
       ./system/programming-build-tools.nix
       ./system/programming-languages.nix
+      ./system/steam.nix
       ./system/storage-nas.nix
       ./system/virtualization.nix
+      ./system/virtual-camera.nix
       ./system/vfio.nix
       ./users/nix-user.nix
     ];
