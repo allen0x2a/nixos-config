@@ -10,12 +10,15 @@ A NixOS system configuration with support for AI, Machine Learning, Computer Vis
 │   ├── bluetooth.nix                # Bluetooth configuration
 │   ├── desktop.nix                  # KDE Plasma 6 configuration
 │   ├── diagnostics.nix              # Diagnostic Software
+│   ├── docker.nix                   # Docker
 │   ├── networking.nix               # Network settings
 │   ├── nvidia.nix                   # GPU drivers and settings
 │   ├── printing.nix                 # CUPS printer support
 │   ├── programming-build-tools.nix  # Build tools and compilers
 │   ├── programming-languages.nix    # Language runtimes
+│   ├── steam.nix                    # Steam
 │   ├── storage-nas.nix              # Network storage
+│   ├── virtual-cmera.nix            # v4l2loopback
 │   ├── vfio.nix                     # VFIO (GPU) device passthrough for virtual machines
 │   └── virtualization.nix           # libvirt/virt-manager
 └── users/
