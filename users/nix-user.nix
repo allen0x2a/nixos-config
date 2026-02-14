@@ -17,7 +17,7 @@
       (symlinkJoin {
         name = "davinci-resolve-studio-wrapped";
         paths = [ davinci-resolve-studio ];
-        nativeBuildInputs = [ makeWrapper ]; # ativeBuildInputs is cleaner for hooks
+        nativeBuildInputs = [ makeWrapper ]; # nativeBuildInputs is cleaner for hooks
         postBuild = ''
           # Fix "GPU memory is full" error caused by OpenGL running on Intel iGPU
           #
