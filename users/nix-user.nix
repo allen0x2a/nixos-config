@@ -19,7 +19,13 @@
         paths = [ davinci-resolve-studio ];
         nativeBuildInputs = [ makeWrapper ]; # ativeBuildInputs is cleaner for hooks
         postBuild = ''
-          # 'wrapProgram' modifies the file in place within the new symlink tree
+          # Fix "GPU memory is full" error caused by OpenGL running on Intel iGPU
+          #
+          # __NV_PRIME_RENDER_OFFLOAD=1        - Enables NVIDIA PRIME offloading for hybrid GPU setups
+          # __NV_PRIME_RENDER_OFFLOAD_PROVIDER - Specifies the NVIDIA GPU as the primary rendering device
+          # __GLX_VENDOR_LIBRARY_NAME=nvidia   - Force NVIDIA OpenGL instead of Mesa
+          # __VK_LAYER_NV_optimus=NVIDIA_only  - Force Vulkan to use NVIDIA only to prevent driver conflicts
+          # QT_AUTO_SCREEN_SCALE_FACTOR=2      - Scales the Qt-based UI for high-resolution (4K) displays
           wrapProgram $out/bin/davinci-resolve-studio \
             --set __NV_PRIME_RENDER_OFFLOAD 1 \
             --set __NV_PRIME_RENDER_OFFLOAD_PROVIDER NVIDIA-G0 \
