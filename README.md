@@ -1,6 +1,17 @@
 # NixOS Configuration
 
 A NixOS system configuration with support for AI, Machine Learning, Computer Vision, VFIO-enabled KVM virtualization with GPU acceleration, and a comprehensive software development ecosystem.   
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nixos/nixos-original.svg" height="40" alt="NixOS" />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/nvidia/76B900" height="40" alt="NVIDIA" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="PyTorch" />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" height="40" alt="VSCode"/>
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/docker/2496ED" height="40" alt="Docker"/>       
+</p>
 
 ```
 ├── configuration.nix                # Main configuration file
