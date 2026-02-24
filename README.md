@@ -2,15 +2,27 @@
 
 A NixOS system configuration with support for AI, Machine Learning, Computer Vision, VFIO-enabled KVM virtualization with GPU acceleration, and a comprehensive software development ecosystem.   
 <p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nixos/nixos-original.svg" height="40" alt="NixOS" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nixos/nixos-original.svg" height="40" alt="NixOS"/>
   <img width="12" />
-  <img src="https://cdn.simpleicons.org/nvidia/76B900" height="40" alt="NVIDIA" />
+  <img src="https://cdn.simpleicons.org/nvidia/76B900" height="40" alt="NVIDIA"/>
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="PyTorch" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="PyTorch"/>
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" height="40" alt="VSCode"/>
   <img width="12" />
-  <img src="https://cdn.simpleicons.org/docker/2496ED" height="40" alt="Docker"/>       
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="40" alt="Python"/>
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/docker/2496ED" height="40" alt="Docker"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" height="40" alt="C++"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="40" alt="Java"/>
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" height="40" alt="Rust"/>
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/steam/000000" height="40" alt="Steam"/>
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/obsstudio/302E31" height="40" alt="OBS Studio"/> 
 </p>
 
 ```
