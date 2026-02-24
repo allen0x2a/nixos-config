@@ -1,11 +1,11 @@
-# system/docker.nix
+# docker.nix
 { config, pkgs, ... }:
 
 {
   # --- Docker Daemon Configuration ---
   virtualisation.docker = {
     enable = true;
-    enableOnBoot = true;
+    enableOnBoot = false; # Start on-demand via docker.socket. Reduces boot time by 700ms+
     daemon.settings.features.cdi = true;
     autoPrune = {
       enable = true;
