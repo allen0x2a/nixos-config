@@ -28,4 +28,13 @@
     "video=efifb:off"
     "video=vesafb:off"
   ];
+
+  # Load NVIDIA modules early in initrd to avoid blocking systemd-modules-load.
+  # This shifts load time off the critical boot path
+  boot.initrd.kernelModules = [
+    "nvidia"
+    "nvidia_modeset"
+    "nvidia_drm"
+    "nvidia_uvm"
+  ];
 }
