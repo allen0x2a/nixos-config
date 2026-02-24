@@ -18,8 +18,8 @@ A NixOS system configuration with support for AI, Machine Learning, Computer Vis
 │   ├── programming-languages.nix    # Language runtimes
 │   ├── steam.nix                    # Steam
 │   ├── storage-nas.nix              # Network storage
-│   ├── virtual-cmera.nix            # v4l2loopback
 │   ├── vfio.nix                     # VFIO (GPU) device passthrough for virtual machines
+│   ├── virtual-camera.nix           # v4l2loopback
 │   └── virtualization.nix           # libvirt/virt-manager
 └── users/
     └── nix-user.nix                 # User configuration
