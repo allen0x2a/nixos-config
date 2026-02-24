@@ -1,3 +1,5 @@
+# virtualization.nix
+
 { config, pkgs, ... }:
 {
   # Enable libvirtd with QEMU/KVM
@@ -10,8 +12,8 @@
     };
   };
 
-  # Add user to libvirtd and kvm groups
-  users.users.nix-user.extraGroups = [ "libvirtd" "kvm" ];
+  # Add your user to libvirtd and kvm groups
+  users.users.nixuser.extraGroups = [ "libvirtd" "kvm" ];
 
   # Enable dconf for virt-manager settings
   programs.dconf.enable = true;
@@ -36,7 +38,7 @@
     LIBVIRT_DEFAULT_URI = "qemu:///system";
   };
 
-    # Create bridge on eno2 (second ethernet port)
+  # Create bridge on eno2 (second ethernet port)
   networking.bridges.br0.interfaces = [ "eno2" ];
   networking.interfaces.br0.useDHCP = true;
   networking.interfaces.eno2.useDHCP = false;
