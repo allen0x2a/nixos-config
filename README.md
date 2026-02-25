@@ -18,11 +18,11 @@ A NixOS system configuration with support for AI, Machine Learning, Computer Vis
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg" height="40" alt="Java"/>
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/rust/rust-original.svg" height="40" alt="Rust"/>
+  <img src="https://cdn.simpleicons.org/rust/B7410E" height="40" alt="Rust"/>
   <img width="12" />
-  <img src="https://cdn.simpleicons.org/steam/000000" height="40" alt="Steam"/>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/83/Steam_icon_logo.svg" height="40" alt="Steam"/>
   <img width="12" />
-  <img src="https://cdn.simpleicons.org/obsstudio/302E31" height="40" alt="OBS Studio"/> 
+  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/OBS_Studio_Logo.svg" height="40" alt="OBS Studio"/> 
 </p>
 
 ```
