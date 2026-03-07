@@ -8,6 +8,8 @@ A NixOS system configuration with support for AI, Machine Learning, Computer Vis
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" height="40" alt="PyTorch"/>
   <img width="12" />
+  <img src="https://cdn.simpleicons.org/ollama/2496ED" height="40" alt="Docker"/>
+  <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" height="40" alt="VSCode"/>
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" height="40" alt="Python"/>
@@ -29,6 +31,7 @@ A NixOS system configuration with support for AI, Machine Learning, Computer Vis
 ├── configuration.nix                # Main configuration file
 ├── hardware-configuration.nix       # Auto-generated hardware config
 ├── system/
+│   ├── ai.nix                       # Ollama configuration
 │   ├── audio.nix                    # Audio configuration
 │   ├── bluetooth.nix                # Bluetooth configuration
 │   ├── desktop.nix                  # KDE Plasma 6 configuration
