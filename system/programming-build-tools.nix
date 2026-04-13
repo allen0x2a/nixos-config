@@ -1,18 +1,26 @@
+# programming-build-tools.nix
+
 { config, pkgs, ... }:
 {
+
+  # Enables compatibility layer for running unpatched dynamic binaries (e.g. VS Code extensions,
+  # prebuilt tools) that expect standard Linux library paths instead of /nix/store
+  programs.nix-ld.enable = true;
+
   environment.systemPackages = with pkgs; [
     # Compilers
-    gcc
     clang
+    gcc
 
     # Build systems
-    cmake
-    gnumake
-    meson
-    ninja
     autoconf
     automake
+    cmake
+    dbus
+    gnumake
     libtool
+    meson
+    ninja
     pkg-config
 
     # Version control
